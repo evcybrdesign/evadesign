@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eva Coding</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">Eva <span>Designer</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="home-img">
+            <img src="dev.jpeg" alt="">
+        </div>
+
+        <div class="home-content">
+            <h1>It's <span>Eva</span></h1>
+            <h3 class="text-animation">
+                I'm a <span></span>
+            </h3>
+
+            <p class="follow-text">GUYS, DON'T FORGET TO FOLLOW MY SOCIAL MEDIA ACCOUNTS! 🚀</p>
+
+
+            <div class="social-icons">
+                 <a href="https://wa.me/6287784976891" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                 <a href="https://www.instagram.com/evcybr" target="_blank"><i class='bx bxl-instagram'></i></a>
+                 <a href="https://www.tiktok.com/@evcybr" target="_blank"><i class='bx bxl-tiktok'></i></a>
+                 <a href="#"><i class='bx bxl-facebook-circle'></i></a> <!-- Facebook masih kosong -->
+            </div>
+
+            <a href="#" class="btn">Kepoin Yuk!</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="dev.jpeg" alt="">
+        </div>
+    
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3 class="text-animation">
+                <span></span>
+            </h3>
+            <p>
+                Halo! Saya <b>Eva</b>, seorang <b>Web Developer & Web Designer</b> yang memiliki passion dalam dunia coding dan desain web. 
+                Dengan pengalaman dalam membangun website yang responsif, modern, dan user-friendly, saya selalu berusaha menciptakan solusi digital yang inovatif dan efektif.
+            </p>
+            
+            <h3>Keahlian Saya:</h3>
+            <p>
+                💻 <b>Web Development</b> – Membangun website interaktif dengan teknologi terbaru.<br>
+                🎨 <b>Web Design</b> – Mendesain tampilan website yang estetis dan fungsional.<br>
+                🚀 <b>Problem Solving</b> – Menyelesaikan tantangan teknis dengan solusi yang efisien.
+            </p>
+        
+            <p id="extra-content" style="display: none;">
+                Saya percaya bahwa sebuah website bukan hanya sekadar tampilan, tetapi juga pengalaman yang nyaman bagi pengguna. 
+                Oleh karena itu, saya selalu fokus pada detail, performa, dan kemudahan navigasi dalam setiap proyek yang saya kerjakan.
+            </p>
+            <a href="#" class="btn" onclick="toggleContent(event)">Read More</a>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+
+        <div class="services-container">
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Graphic Design</h4>
+                    <p>Saya menciptakan desain visual yang menarik dan komunikatif untuk berbagai kebutuhan, mulai dari branding, media sosial, hingga materi pemasaran. Dengan kreativitas dan pemahaman estetika, saya memastikan setiap desain memiliki daya tarik visual yang kuat dan sesuai dengan identitas merek.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Frontend Development</h4>
+                    <p>Saya mengembangkan tampilan website yang responsif, modern, dan user-friendly menggunakan teknologi terkini seperti HTML, CSS, dan JavaScript. Dengan fokus pada performa dan pengalaman pengguna, saya memastikan website berjalan optimal di berbagai perangkat.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>UI / UX Design</h4>
+                    <p>Saya merancang antarmuka pengguna (UI) yang estetis dan pengalaman pengguna (UX) yang intuitif. Dengan pendekatan berbasis riset dan desain thinking, saya menciptakan solusi digital yang meningkatkan kepuasan pengguna dan mendukung tujuan bisnis.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Content Managment</h4>
+                    <p>Saya mengelola dan mengoptimalkan konten digital untuk berbagai platform, memastikan bahwa informasi yang disajikan selalu relevan, menarik, dan sesuai dengan target audiens. Dengan pemahaman mendalam tentang SEO dan strategi pemasaran konten, saya membantu meningkatkan visibilitas online.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Testing Sofware</h4>
+                    <p>Saya melakukan pengujian perangkat lunak secara menyeluruh untuk memastikan fungsionalitas, keandalan, dan keamanan aplikasi. Dengan metode manual maupun otomatisasi, saya mengidentifikasi dan mengatasi bug sebelum produk diluncurkan ke pengguna akhir.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Mobile App Development</h4>
+                    <p>Saya mengembangkan aplikasi mobile berbasis Android dan iOS dengan tampilan yang menarik serta performa yang optimal. Dengan pendekatan user-centric dan pemanfaatan teknologi terkini, saya memastikan aplikasi memberikan pengalaman terbaik bagi pengguna.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+    
+        <form onsubmit="sendToWhatsApp(event)">
+            <div class="input-box">
+                <input type="text" id="fullName" placeholder="Full Name">
+                <input type="email" id="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" id="phoneNumber" placeholder="Phone Number">
+                <input type="text" id="subject" placeholder="Subject">
+            </div>
+    
+            <textarea id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://wa.me/6287784976891" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            <a href="https://www.instagram.com/evcybr" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.tiktok.com/@evcybr" target="_blank"><i class='bx bxl-tiktok'></i></a>
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a> <!-- Facebook masih kosong -->
+        </div>
+    
+        <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+    
+        <p class="copyright">© Eva Design | All Rights Reserved</p>
+    </footer>
+    
+
+    <script src="script.js"></script>   
+</body>
+</html>
